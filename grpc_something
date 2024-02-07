@@ -64,3 +64,6 @@ class ExampleService(object):
             example__pb2.HelloResponse.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+    
+class Test():
+    pass
